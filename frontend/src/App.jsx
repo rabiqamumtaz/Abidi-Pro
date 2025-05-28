@@ -3,7 +3,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import "./index.css"; // your Tailwind styles
 
 // Layouts
-import AppLayout from "./Layout/AppLayout";
+import AppLayout from "./layout/AppLayout";
 import AuthLayout from "./layout/AuthLayout";
 
 // Pages

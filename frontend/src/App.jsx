@@ -14,7 +14,7 @@ import ResetPassword from "./Pages/login/Resetpassword";
 import Home from "./Pages/People/Home";
 import TimeTracker from "./Pages/People/TimeTracker";
 import Files from "./Pages/People/Files";
-import Profile from "./Pages/People/profile";
+import Profile from "./Pages/People/Profile";
 import EditProfile from "./Pages/People/EditProfile";
 import LeaveTracker from "./Pages/People/LeaveTracker";
 import LeaveTrackerAdmin from "./Pages/People/LeaveTrackerAdmin";

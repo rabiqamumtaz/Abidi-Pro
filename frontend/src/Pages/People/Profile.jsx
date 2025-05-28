@@ -10,7 +10,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import api from "../../axios"; 
  
-export default function Profile() {
+const Profile =() => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -224,5 +224,5 @@ export default function Profile() {
     </div>
   );
 }
- 
+ export default Profile;
  

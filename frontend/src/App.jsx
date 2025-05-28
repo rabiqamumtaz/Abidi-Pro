@@ -29,7 +29,7 @@ import { ToastContainer } from "react-toastify";
 import PrivateRoute from "./Components/PrivateRoute";
 import PublicRoute from "./Components/PublicRoute";
 import "react-toastify/dist/ReactToastify.css";
-import VerifyOtp from "./Pages/login/VerifyOTP";
+import VerifyOtp from "./Pages/login/VerifyOtp";
 import Ticket from "./Pages/Tickets/Ticket";
 import AdminTickets from "./Pages/Tickets/AdminTickets";
 import AdminDashBoard from "./Pages/Admin/AdminDashBoard";

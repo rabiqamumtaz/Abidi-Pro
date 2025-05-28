@@ -77,7 +77,7 @@ const Ticket = () => {
 
   return (
     <div className="bg-primary m-5 rounded-2xl min-h-[700px] p-4 md:p-6">
-      <div className="text-text rounded-lg  p-4 md:p-6 min-h-[700px] ">
+     
         {/* Header Controls */}
         <div className="flex flex-col space-y-4 mb-5 bg-white rounded-lg px-4 py-4 sm:px-8">
           {/* Top controls section - responsive layout */}
@@ -279,7 +279,7 @@ const Ticket = () => {
             onClose={() => setSelectedTicket(null)}
           />
         )}
-      </div>
+      
     </div>
   );
 };

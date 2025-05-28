@@ -86,7 +86,7 @@ const LeaveTracker = () => {
     // MainBody
     <div className="px-4 py-2 ">
       {/* roundercorner main Content */}
-      <div className="p-8 rounded-xl bg-primary">
+      <div className="p-4 lg:p-8 rounded-xl bg-primary">
         {/* LeaveSummaryDiv */}
         <div className="mt-3 mb-4 bg-background px-6 py-1 rounded-md text-sm font-medium">
           <div className="flex flex-col items-center sm:flex sm:flex-row sm:justify-between sm:items-center p-4 ">
@@ -113,12 +113,12 @@ const LeaveTracker = () => {
         </div>
 
         {/* upcoming holidays and leave */}
-        <div className="p-4 mt-3 bg-background px-6 pb-8 rounded-md text-sm font-semibold">
+        <div className="p-3 lg:p-4  mt-3 bg-background  pb-8 rounded-md text-sm font-semibold">
           <h1 className="my-2 mb-6">Upcoming Holidays And Leaves</h1>
           <HolidayTable />
         </div>
         {/* past holidays and leave */}
-        <div className="p-4 mt-3 bg-background px-6 pb-8 rounded-md text-sm font-semibold">
+        <div className="p-3 lg:p-4 mt-3 bg-background  pb-8 rounded-md text-sm font-semibold">
           <h1 className="my-2 mb-6">Past Holidays And Leaves</h1>
           {/* <DropDownPicker options={["holidays", "leave", "leave and holidays"]} /> */}
           <HolidayTable />

@@ -58,7 +58,7 @@ const ActivityLogs = () => {
   return (
     <div className='px-4 py-2 '>
       {/* roundercorner main Content */}
-      <div className='p-8 rounded-xl bg-primary'>
+      <div className='p-4 lg:p-8 rounded-xl bg-primary'>
       <div className='bg-white px-8 py-4 font-semibold rounded-lg'>Activity Logs</div>
        {/* attendance summary card view horizontal */}
        <div className='my-6'>

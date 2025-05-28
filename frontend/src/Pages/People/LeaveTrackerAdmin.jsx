@@ -55,7 +55,7 @@ const LeaveTrackerAdmin = () => {
     // MainBody
     <div className="px-4 py-2">
       {/* roundercorner main Content */}
-      <div className="p-8 rounded-xl bg-primary">
+      <div className="p-4 lg:p-8 rounded-xl bg-primary">
         {/* attendance summary card view horizontal */}
 
         <div className="mt-3 bg-background px-6 py-1  rounded-md text-sm font-medium">
@@ -131,7 +131,7 @@ const LeaveTrackerAdmin = () => {
             </table>
           </div>
         </div>
-        <div className="p-4 mt-3 bg-background px-6 pb-8 rounded-md text-sm font-semibold">
+        <div className="p-3 lg:p-4 mt-3 bg-background  pb-8 rounded-md text-sm font-semibold">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 mb-4">
             <h1 className="text-base sm:text-lg font-semibold">
               Upcoming Holidays And Leaves

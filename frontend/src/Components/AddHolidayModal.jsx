@@ -49,7 +49,7 @@ const AddHolidayModal = ({isOpen,setIsOpen}) => {
 
               <button
                 type="submit"
-                className="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600"
+                className="bg-[#497a71] text-white px-4 py-2 rounded hover:bg-[#99c7be] hover:text-black"
               >
                 Submit
               </button>

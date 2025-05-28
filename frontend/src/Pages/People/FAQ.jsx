@@ -38,8 +38,8 @@ const FAQs = () => {
   return (
     <div className="flex flex-col min-h-screen bg-primary m-5 rounded-lg">
       {/* Main Content */}
-      <main className="flex-1 p-8 ">
-        <div className="max-w-5xl mx-auto bg-white rounded-lg shadow-sm p-6">
+      <main className="flex-1 p-4 lg:p-8 ">
+        <div className="max-w-5xl mx-auto bg-white rounded-lg shadow-sm p-4 lg:p-6 ">
           {/* FAQs Section */}
           <div>
             <div className="bg-gray-50 p-4 rounded-md mb-6">

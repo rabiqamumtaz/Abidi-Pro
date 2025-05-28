@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-text: #1f2937;
+  --color-background: #ffffff;
+  --color-primary: #3b82f6;
+  --color-secondary: #93c5fd;
+  --color-heading: #1a1d23;
+  --color-description: #38393b;
+  --color-cardDescription: #699e62; /* ✅ Correct key name */
+  --color-completed: #4cd137;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.bg-background {
+  background-color: var(--color-background);
+}
+.text-text {
+  color: var(--color-text);
+}
+.text-text-white {
+  color: var(--color-background);
+}
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.text-heading {
+  color: var(--color-heading);
+}
+.text-description {
+color: var(--color-description);
+}
+.text-cardDescription {
+  color: var(--color-cardDescription);
+}
+.text-completed {
+  color: var(--color-completed);
+}
+.bg-completed {
+  background-color: var(--color-completed);
+}
